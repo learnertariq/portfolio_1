@@ -14,7 +14,7 @@
     />
 
     <!-- Local Styles -->
-    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/main.css" />
   </head>
   <body>
     <!------------------
@@ -27,13 +27,26 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
-          <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <button
+            class="navbar-toggler ms-auto"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ms-auto">
               <li class="nav-item">
-                <a class="nav-link fw-medium active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link fw-medium active"
+                  aria-current="page"
+                  href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-medium" href="#">Works</a>
@@ -44,13 +57,40 @@
               <li class="nav-item">
                 <a class="nav-link fw-medium" href="#">Contact</a>
               </li>
-              
             </ul>
           </div>
         </div>
       </nav>
-    <!-------------------
+      <!-------------------
        Nav ends 
+      ------------------->
+
+      <!-------------------
+       Hero starts 
+      ------------------->
+      <section class="container mt-5">
+        <div class="row align-items-center">
+          <div class="col">
+            <h1 class="h1 fw-bold fs-1">
+              Hi, I am <span class="hero__name"> Tariq </span>, Full-Stack Web
+              Developer
+            </h1>
+            <p class="my-4">
+              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
+              amet sint. Velit officia consequat duis enim velit mollit.
+              Exercitation veniam consequat sunt nostrud amet.
+            </p>
+            <button class="btn btn-lg btn-danger fw-medium">
+              Download Resume
+            </button>
+          </div>
+          <div class="col">
+            <img src="./assets/my-bg.png" class="w-100" alt="" />
+          </div>
+        </div>
+      </section>
+      <!-------------------
+       Hero ends 
       ------------------->
     </header>
     <!-------------------
@@ -60,7 +100,81 @@
     <!------------------
        Main starts 
       ------------------->
-    <main></main>
+    <main>
+      <section class=" recent-posts">
+        <div class="container py-5">
+          <div class="row ">
+            <div class="col">
+              <h2 class="h2 fs-5">Recent Posts</h2>
+
+            </div>
+            <div class="col d-flex justify-content-end"><a href="">View all</a></div>
+          </div>
+          <div class="row">
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="col">
+                    <h3 class="h3">Making a design system from scratch</h3>
+                  </div>
+                  <div class="col">
+                    <p>12 Feb 2020 | Design, Pattern</p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="col">
+                    <h3 class="h3">Making a design system from scratch</h3>
+                  </div>
+                  <div class="col">
+                    <p>12 Feb 2020 | Design, Pattern</p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <div class="card-body">
+                  <div class="col">
+                    <h3 class="h3">Making a design system from scratch</h3>
+                  </div>
+                  <div class="col">
+                    <p>12 Feb 2020 | Design, Pattern</p>
+                  </div>
+                  <div class="col">
+                    <p>
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-------------------
        Main ends 
       ------------------->

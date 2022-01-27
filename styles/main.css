@@ -7,3 +7,18 @@ body {
 .fw-medium {
   font-weight: 500;
 }
+
+section {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+}
+
+.hero__name {
+  background: -webkit-linear-gradient(yellow, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.recent-posts {
+  background-color: #edf7fa;
+}
