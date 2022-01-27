@@ -69,7 +69,15 @@
        Hero starts 
       ------------------->
       <section class="container mt-5">
-        <div class="row align-items-center">
+        <div
+          class="
+            row
+            align-items-center
+            row-cols-1 row-cols-sm-2
+            gap-5
+            flex-column-reverse flex-sm-row
+          "
+        >
           <div class="col">
             <h1 class="h1 fw-bold fs-1">
               Hi, I am <span class="hero__name"> Tariq </span>, Full-Stack Web
@@ -101,16 +109,20 @@
        Main starts 
       ------------------->
     <main>
-      <section class=" recent-posts">
+      <!------------------
+       Recent-posts starts 
+      ------------------->
+      <section class="recent-posts">
         <div class="container py-5">
-          <div class="row ">
+          <div class="row">
             <div class="col">
               <h2 class="h2 fs-5">Recent Posts</h2>
-
             </div>
-            <div class="col d-flex justify-content-end"><a href="">View all</a></div>
+            <div class="col d-flex justify-content-end">
+              <a href="">View all</a>
+            </div>
           </div>
-          <div class="row">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
             <div class="col">
               <div class="card">
                 <div class="card-body">
@@ -174,6 +186,123 @@
           </div>
         </div>
       </section>
+      <!------------------
+       Recent-posts ends 
+      ------------------->
+
+      <!------------------
+       Featured works starts 
+      ------------------->
+      <section class="container fearured-workd">
+        <h2 class="h2 mb-5">Featured Works</h2>
+
+        <!-- features row -->
+        <div class="row flex-column g-4">
+
+          <!-- indivisual feature -->
+          <div class="col">
+            <!-- inside feature row -->
+            <div class="row work g-4">
+              <!-- feature img -->
+              <div class="col col-12 col-sm-4">
+                <img
+                  src="./assets/Rectangle 30.png"
+                  class="work__img w-100"
+                  alt=""
+                />
+              </div>
+              <!-- feature description -->
+              <div class="col col-12 col-sm-8">
+                <div class="row flex-column g-3">
+                  <div class="col">
+                    <h3 class="h3 fw-bold work__heading">
+                      Designing Dashboards
+                    </h3>
+                  </div>
+                  <div class="col">2020 | Dashboard</div>
+                  <div class="col">
+                    <p class="work__desc">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- indivisual feature -->
+          <div class="col">
+            <!-- inside feature row -->
+            <div class="row work g-4">
+              <!-- feature img -->
+              <div class="col col-12 col-sm-4">
+                <img
+                  src="./assets/Rectangle 30.png"
+                  class="work__img w-100"
+                  alt=""
+                />
+              </div>
+              <!-- feature description -->
+              <div class="col col-12 col-sm-8">
+                <div class="row flex-column g-3">
+                  <div class="col">
+                    <h3 class="h3 fw-bold work__heading">
+                      Designing Dashboards
+                    </h3>
+                  </div>
+                  <div class="col">2020 | Dashboard</div>
+                  <div class="col">
+                    <p class="work__desc">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- indivisual feature -->
+          <div class="col">
+            <!-- inside feature row -->
+            <div class="row work g-4">
+              <!-- feature img -->
+              <div class="col col-12 col-sm-4">
+                <img
+                  src="./assets/Rectangle 30.png"
+                  class="work__img w-100"
+                  alt=""
+                />
+              </div>
+              <!-- feature description -->
+              <div class="col col-12 col-sm-8">
+                <div class="row flex-column g-3">
+                  <div class="col">
+                    <h3 class="h3 fw-bold work__heading">
+                      Designing Dashboards
+                    </h3>
+                  </div>
+                  <div class="col">2020 | Dashboard</div>
+                  <div class="col">
+                    <p class="work__desc">
+                      Amet minim mollit non deserunt ullamco est sit aliqua
+                      dolor do amet sint. Velit officia consequat duis enim
+                      velit mollit. Exercitation veniam consequat sunt nostrud
+                      amet.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-------------------
+       Featured works ends 
+      ------------------->
     </main>
     <!-------------------
        Main ends 
@@ -182,11 +311,27 @@
     <!------------------
        Footer starts 
       ------------------->
-    <footer></footer>
+    <footer>
+      <div class="d-flex justify-content-center gap-4">
+        <i class="fab text-primary fs-3 fa-facebook"></i>
+        <i class="fab text-primary fs-3 fa-twitter"></i>
+        <i class="fab text-primary fs-3 fa-instagram"></i>
+        <i class="fab text-primary fs-3 fa-linkedin"></i>
+      </div>
+
+      <p class="footer__text text-center small mt-4 mb-2">
+        Copyright © 2022 Avi Yansah
+      </p>
+    </footer>
     <!-------------------
        Footer ends 
       ------------------->
 
+    <!-- Fontawesome Kit -->
+    <script
+      src="https://kit.fontawesome.com/1f2f7857fb.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Bootstrap JS -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
